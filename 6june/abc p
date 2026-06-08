@@ -1,0 +1,9 @@
+s = "abc"
+
+for i in range(3):
+    print(" " * (i * 2), end="")
+
+    for j in range(3 - i):
+        print(s[i], end="")
+
+    print()
